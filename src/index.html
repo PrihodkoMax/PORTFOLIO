@@ -97,7 +97,7 @@
 			<div class="title title_fz16 promo__subtitle">Меня зовут Александра Смит</div>
 			<h1 class="title title_fz48 promo__title">Я web-разработчик из города Москва</h1>
 			<div class="promo__btns">
-				<a href="#" class="promo__link btn">Портфолио</a>
+				<a href="#prtfl" class="promo__link btn">Портфолио</a>
 				<a href="#" class="promo__link">Про меня</a>
 			</div>
 		</div>
@@ -375,7 +375,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio">
+	<section id="prtfl" class="portfolio">
 		<div class="container">
 			<h2 class="title title_fz16 resume__subtitle">Портфолио</h2>
 			<div class="title resume__title">Мои работы</div>
@@ -442,6 +442,51 @@
 					<div class="title title_fz14 price__item-title">Дизайн</div>
 					<div class="price__item-number">Индивидуально</div>
 					<div class="price__item-text">Создам дизайн для вашего сайта/приложения...</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts">
+		<div class="container">
+			<div class="contacts__wrapper">
+				<div class="aboutme__photo">
+					<img src="img/main_photo.jpg" alt="photo">
+				</div>
+				<div class="contacts__descr">
+					<h2 class="title title_fz16 aboutme_subtitle">Контакты</h2>
+					<div class="title">Свяжитесь со мной</div>
+					<hr class="divider">
+
+					<div class="title title_fz14 contacts__title">Любым удобным для вас способом:</div>
+					<div class="contacts__social">
+						<a href="#" class="contacts__link">
+							<img src="icons/social/Facebook.svg" alt="facebook">
+						</a>
+						<a href="#" class="contacts__link">
+							<img src="icons/social/Telegram.svg" alt="telegram">
+						</a>
+						<a href="#" class="contacts__link">
+							<img src="icons/social/Instagram.svg" alt="instagram">
+						</a>
+					</div>
+					<div class="title title_fz14 contacts__title">Или оставьте ваши данные и я сама вам напишу:</div>
+
+					<form class="contacts__form" action="#">
+						<div class="contacts__input">
+							<input id="name" name="name" type="text">
+							<label for="name">Ваше имя</label>
+						</div>
+						<div class="contacts__input">
+							<input id="email" name="email" type="email">
+							<label for="email">Ваша почта</label>
+						</div>
+						<div class="contacts__textarea">
+							<textarea name="text" id="text"></textarea>
+							<label for="trext">Ваше сообщение</label>
+						</div>
+						<div><button class="btn contacts__btn">Отправить сообщение</button></div>
+					</form>
 				</div>
 			</div>
 		</div>

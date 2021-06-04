@@ -61,6 +61,7 @@
 		line-height: 36px;
 		margin-bottom: 15px;
 		cursor: pointer;
+		text-decoration: none;
 		&:before {
 			content: '';
 			position: absolute;
@@ -75,10 +76,10 @@
 		&:hover {
 			a {
 				text-decoration: none;
-				color: #7a4c07;
+				color: #ffe89e;
 			}
 			&:before {
-				background-color: #7a4c07;
+				background-color: #ffe89e;
 			}
 		}
 		a {
