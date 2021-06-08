@@ -40,6 +40,18 @@
 			column-gap: 40px;
 		}
 	}
+	.portfolio {
+		padding-top: 100px;
+		&__wrapper {
+			grid-template-columns: repeat(auto-fit, 280px);
+			justify-content: space-around;
+			row-gap: 35px;
+			.horizonal, .vertical {
+				grid-row: unset;
+				grid-column: unset;
+			}
+		}
+	}	
 }
 
 @media (max-width: 992px) {
@@ -124,6 +136,9 @@
 			column-gap: 20px;
 		}
 	}
+	.portfolio {
+		padding-top: 80px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -182,6 +197,16 @@
 		}
 		&__progress-line {
 			width: 100%;
+		}
+	}
+	.portfolio .divider {
+		margin: 10px auto 40px auto;
+	}
+	.portfolio {
+		&__wrapper {
+			.horizonal, .vertical {
+				height: 280px;
+			}
 		}
 	}
 }
