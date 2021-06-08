@@ -5,9 +5,8 @@
 		padding-right: 100px;
 		display: grid;
 		grid-template-columns: 400px auto;
-		grid-template-rows: 1fr 1fr;
-		// grid-template-rows: minmax(245px, auto) minmax(245px, auto);
-		// grid-auto-rows: minmax(245px, auto);
+		grid-template-rows: minmax(245px, auto) minmax(245px, auto);
+		grid-auto-rows: minmax(245px, auto);
 		column-gap: 70px;
 	}
 	&__img {
